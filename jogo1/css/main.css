@@ -1,0 +1,169 @@
+@font-face {
+  font-family: material;
+  src: url("../font/MaterialIcons-Regular.ttf");
+}
+
+/*geral*/
+body {
+  font-family: abel;
+  color: white;
+  background: url(../img/fundo.jpg);
+}
+section,
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/*inici9o*/
+.material-icon {
+  font-family: material;
+}
+
+section.inicio {
+  background-size: 80% auto;
+  display: none;
+}
+section.inicio h1 {
+  text-align: center;
+  font-size: 7em;
+  margin: 30vh 5vw 0 5vw;
+  font-family: "Bungee Inline", cursive;
+}
+
+section.inicio button img {
+  display: flex;
+  width: 5vw;
+  border: none;
+  margin: 0vw;
+}
+
+section.inicio button.chato {
+  margin: 100px 0px 200px 1200px;
+  padding: 0px 0;
+
+  background: none;
+  border: none;
+  color: white;
+  font-size: 3em;
+}
+
+section.inicio button.geral {
+  font-family: "Acme", sans-serif;
+  text-align: center;
+  background: linear-gradient(to bottom, #f2f2f2, #e0dede);
+  border: none;
+  font-size: 2em;
+  color: #810724;
+  box-shadow: 4px 4px 2px -2px rgba(0, 0, 0, 0.5);
+  width: 40vw;
+  margin: 70px 0px 2px 400px;
+  padding: 20px 0;
+  border-radius: 4px;
+}
+
+/*jogo*/
+section.jogo {
+  background-size: 80% auto;
+  background: url(../img/fundocerto.jpg);
+}
+
+section.jogo button.amarelo {
+  background: none;
+  border: none;
+  width: 9vw;
+  margin: 200px 0px 100px 150px;
+}
+section.jogo button.vermelho {
+  background: none;
+  border: none;
+  width: 9vw;
+  margin: 200px 0px 100px 150px;
+}
+section.jogo button.azul {
+  background: none;
+  border: none;
+  width: 9vw;
+  margin: 200px 0px 100px 150px;
+}
+section.jogo button.verde {
+  background: none;
+  border: none;
+  width: 9vw;
+  margin: 200px 0px 100px 150px;
+}
+
+section.jogo button.chato img {
+  display: flex;
+  width: 5vw;
+  border: none;
+  margin: 0vw;
+  background: none;
+}
+
+section.jogo button.chato {
+  border: none;
+  margin: 0px 0px 200px 1200px;
+  padding: 0px 0;
+  background: none;
+
+  background: none;
+  border: none;
+  color: white;
+  font-size: 3em;
+}
+
+/*final*/
+
+section.final {
+  background-size: 80% auto;
+  display: none;
+}
+
+section.final h1 {
+  text-align: center;
+  font-size: 6em;
+  margin: 20vh 5vw 0 5vw;
+  font-family: "Bungee Inline", cursive;
+}
+
+section.final h2 {
+  text-align: center;
+  font-size: 2em;
+  margin: 5vh 5vw 0 5vw;
+  font-family: "Acme", sans-serif;
+}
+
+section.final button img {
+  display: flex;
+  width: 5vw;
+  border: none;
+  margin: 0vw;
+}
+
+section.final button.chato {
+  border: none;
+  margin: 45px 0px 200px 1200px;
+  padding: 0px 0;
+
+  background: none;
+  border: none;
+  color: white;
+  font-size: 3em;
+}
+
+section.final button.geral {
+  font-family: "Acme", sans-serif;
+  text-align: center;
+  background: linear-gradient(to bottom, #f2f2f2, #e0dede);
+  border: none;
+  font-size: 2em;
+  color: #810724;
+  box-shadow: 4px 4px 2px -2px rgba(0, 0, 0, 0.5);
+  width: 40vw;
+  margin: 70px 0px 2px 400px;
+  padding: 20px 0;
+  border-radius: 4px;
+}

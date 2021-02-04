@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="font/material-icons.css" />
+    <title>Jogo da memória</title>
+  </head>
+  <body>
+    <audio src="./musica/Undertale OST - Shop Extended_70k.mp3" id="musica">
+      <p>
+        If you are reading this, it is because your browser does not support the
+        audio element.
+      </p>
+    </audio>
+
+    <section class="inicio">
+      <h1>JOGO DA MEMÓRIA</h1>
+
+      <button class="geral">INICIAR</button>
+      <button class="material-icon chato">volume_off</button>
+    </section>
+
+    <section class="jogo">
+      <div class="genius">
+        <button class="amarelo">
+          <img src="./img/Sem Título-1.png" id="amarelo" />
+        </button>
+        <button class="vermelho">
+          <img src="./img/Sem Título-1ver.png" id="vermelho" />
+        </button>
+        <button class="azul"><img src="./img/3333.png" id="azul" /></button>
+        <button class="verde"><img src="./img/verde.png" id="verde" /></button>
+      </div>
+      <button class="material-icon chato">volume_off</button>
+    </section>
+
+    <section class="final">
+      <h1>PONTUAÇÃO</h1>
+      <h2>Acertos: X</h2>
+      <button class="geral">Jogar novamente</button>
+      <button class="material-icon chato">volume_off</button>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.5.43/Tone.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
